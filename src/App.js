@@ -62,6 +62,9 @@ function App() {
         paddingTop: "1rem",
       }}
     >
+    This is a follow along of 
+    <a href="https://Twitter.com/JHerr"> Twitter.com/JHerr's</a> 
+    <a href="bit.ly/37qdUoL"> great YouTube Playlist</a>
     <h1 className="title">Pokemon Search</h1>
     <input value={filter} onChange={(evt) => filterSet(evt.target.value) } />
     <div
@@ -99,6 +102,7 @@ function App() {
        )}
       </div>
     </div>
+    <a href="https://github.com/payne/app1">Source on GitHub</a>
     </div>
  );
 }
